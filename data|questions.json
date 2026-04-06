@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is phishing?",
+    "options": ["A hacking tool", "A type of social engineering attack", "Firewall method", "Encryption"],
+    "answer": "A type of social engineering attack"
+  },
+  {
+    "question": "Which is a sign of phishing email?",
+    "options": ["Professional email", "Unknown sender with urgent message", "Official domain", "Secure link"],
+    "answer": "Unknown sender with urgent message"
+  },
+  {
+    "question": "What should you do if you receive a suspicious link?",
+    "options": ["Click it", "Ignore it", "Verify before clicking", "Forward to friends"],
+    "answer": "Verify before clicking"
+  }
+]
