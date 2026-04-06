@@ -1,0 +1,10 @@
+<h1>Social Engineering Awareness Platform</h1>
+
+{% if user %}
+    <p>Welcome, {{ user }} 👋</p>
+    <a href="/quiz"><button>Take Quiz</button></a>
+    <a href="/logout"><button>Logout</button></a>
+{% else %}
+    <a href="/login"><button>Login</button></a>
+    <a href="/register"><button>Register</button></a>
+{% endif %}
