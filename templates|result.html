@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h2>Your Score</h2>
+    <h3>{{ score }} / {{ total }}</h3>
+
+    {% if score|int == total|int %}
+        <p>Excellent! You are security aware 🔐</p>
+    {% else %}
+        <p>Keep learning about social engineering attacks!</p>
+    {% endif %}
+
+    <a href="/">Go Home</a>
+</body>
+</html>
